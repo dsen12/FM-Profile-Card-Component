@@ -1,8 +1,8 @@
-# Frontend Mentor - QR Code Component Project
+# Frontend Mentor - Profile card component solution
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H).
+This is a solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ). 
 
-**Live Site Url:** 
+**Live Site Url:** https://fm-profile-card-component-dsen.netlify.app/
 
 **Tools Used:**
 HTML 
