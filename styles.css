@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100dvh;
+  font-size: 18px;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-style: normal;
+  line-height: normal;
+  background: url(./images/bg-pattern-bottom.svg) top 50vh left 50vw no-repeat, url(./images/bg-pattern-top.svg) bottom 40vh right 51vw no-repeat;
+  background-color: var(--Dark-cyan);
+
+  overflow: hidden;
+  position: relative;
+}
+
+:root {
+  --Dark-cyan: hsl(185, 75%, 39%);
+  --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --Dark-grayish-blue: hsl(227, 10%, 46%);
+  --Dark-gray: hsl(0, 0%, 59%);
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.card {
+  background-color: #fff;
+  width: 350px;
+  height: 374px;
+  border-radius: 15px;
+  box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.50);
+  position: relative;
+}
+
+.banner-design {
+  background-image: url(images/bg-pattern-card.svg);
+  height: 140px;
+  border-radius: 15px 15px 0 0;
+}
+
+.user-image {
+  width: 96px;
+  height: 96px;
+  border-radius: 96px;
+  border: 5px solid #FFF;
+  position: absolute;
+  top: 92px;
+  left: 127px;
+}
+
+.user-info {
+  text-align: center;
+  padding-top: 60px;
+  height: 234px;
+  flex-direction: column;
+  padding-bottom: 24px;
+}
+
+.personal {
+  font-weight: 700;
+  color: var(--Very-dark-desaturated-blue);
+  margin-bottom: 13px;
+}
+
+.age {
+  margin-left: 8px;
+  font-weight: normal;
+  color: var(--Dark-gray);
+}
+
+.location {
+  color: var(--Dark-gray);
+  font-size: 14px;
+  margin-bottom: 28px;
+}
+
+.horizontal-rule {
+  width: inherit;
+  height: 1px;
+  background-color: hsla(228, 9%, 92%, 1);
+  margin: 28px 0 24px 0;
+}
+
+.stats {
+  padding-top: 24px;
+  column-gap: 50px;
+  border-top: solid 1px hsla(228, 9%, 92%, 1);
+}
+
+.followers, .likes, .photos {
+  flex-direction: column;
+  row-gap: 9px;
+}
+
+.number {
+  font-weight: 700;
+  color: var(--Very-dark-desaturated-blue);
+}
+
+.title {
+  color: var(--Dark-gray);
+  letter-spacing: 1.5px;
+  font-size: 10px;
+}
+
+.top-bubble {
+  background-image: url(images/bg-pattern-top.svg);
+  width: 978px;
+  height: 976px;
+  position: absolute;
+  top: -35%;
+  left: -5%;
+}
