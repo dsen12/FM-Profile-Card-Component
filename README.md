@@ -5,15 +5,15 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ### Screenshot
 
 **Mobile**
-![](project screenshots/mobile.png)
+![Mobile](project screenshots/mobile.png)
 
 **Desktop**
-![](project screenshots/desktop.png)
+![Desktop](project screenshots/desktop.png)
 
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://fm-profile-card-component-dsen.netlify.app/)
+- Live Site URL: (https://fm-profile-card-component-dsen.netlify.app/)
 
 ## My process
 
