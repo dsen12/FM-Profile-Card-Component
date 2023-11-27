@@ -5,10 +5,10 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ### Screenshot
 
 **Mobile**
-![Mobile](/project-screenshots/mobile.png)
+![](/project-screenshots/mobile.png)
 
 **Desktop**
-![Desktop](/project-screenshots/desktop.png)
+![](/project-screenshots/desktop.png)
 
 
 ### Links
